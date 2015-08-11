@@ -150,11 +150,6 @@
 			// Create var Racer of type allRacers
 			var Racer = new allRacers([racer1, racer2, racer3]);
 
-			// Compare array values of var Racer to instances of type Racer
-			console.log(Racer.all[0] === racer1);
-			console.log(Racer.all[1] === racer2);
-			console.log(Racer.all[2] === racer3);
-
 			//// jQuery Button functionality ////
 			$(document).on("click", ".allStartButton", function(){
 				Racer.all.start();
